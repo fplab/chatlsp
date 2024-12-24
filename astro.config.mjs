@@ -4,5 +4,5 @@ import { defineConfig } from "astro/config";
 export default defineConfig({
   // site: 'https://chatlsp.org',
   // site: "https://hazel.org/chatlsp-site.github.io/",
-  site: "https://chatlsp.github.io/",
+  site: "https://fplab.github.io/chatlsp",
 });
