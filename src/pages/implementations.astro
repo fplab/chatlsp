@@ -15,11 +15,11 @@ const permalink = `${Astro.site?.href}chatlsp/implementations`;
       <div class="hero-image-container">
         <picture>
           <!-- When screen is bigger than an iPhone, use the original hero image. -->
-          <source srcset="/assets/chatlsp-demo.gif" media="(min-width: 480px)">
+          <source srcset="/chatlsp/assets/chatlsp-demo.gif" media="(min-width: 480px)">
           <!-- Fall back to smaller image. -->
           <!-- TODO: We need to make a smaller image. -->
           <!-- TODO: Image should have a transparent background. -->
-          <img class="hero-image" alt="A demo of the ChatLSP VSCode extension." src="/assets/chatlsp-demo.gif">
+          <img class="hero-image" alt="A demo of the ChatLSP VSCode extension." src="/chatlsp/assets/chatlsp-demo.gif">
         </picture>
         <p class="caption">
           <a href="https://github.com/HongweiRuan/llmcompletion/releases/tag/v0.1.0" target="_blank" rel="noopener">Get it here!</a>
